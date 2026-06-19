@@ -7,12 +7,12 @@ import com.example.stockpro.data.Producto
 class StockViewModel : ViewModel() {
 
     private val _productos = mutableStateListOf(
-        Producto(1, "Laptop", "Laptop Dell i7", 1200.0, 4),
-        Producto(2, "Mouse", "Mouse Logitech", 25.0, 10),
-        Producto(3, "Teclado", "Teclado Mecánico", 60.0, 2),
-        Producto(4, "Monitor", "Monitor Samsung 24", 220.0, 6),
-        Producto(5, "Impresora", "HP Multifuncional", 180.0, 0),
-        Producto(6, "SSD", "SSD Kingston 1TB", 90.0, 8)
+        Producto(1, "Router WiFi", "Router TP-Link AX1800", 85.0, 3),
+        Producto(2, "Switch Red", "Switch 24 puertos", 120.0, 7),
+        Producto(3, "Cable UTP", "Cable Cat6 10 metros", 12.0, 15),
+        Producto(4, "Access Point", "Punto de acceso empresarial", 150.0, 2),
+        Producto(5, "Rack Servidor", "Rack 42U", 450.0, 1),
+        Producto(6, "UPS", "Respaldo de energía 1500VA", 280.0, 0)
     )
 
     val productos: List<Producto>
